@@ -37,6 +37,36 @@ Output
 +-----------+-----------+-----------+
 17 rows in set (0.00 sec)
 ```
+USE homework;
+CREATE TABLE PersonnelList(
+	lastname CHAR(50) 
+	firstname CHAR(50),
+	jobtitle VARCHAR(50) DEFAULT 'Sales Rep'
+	PRIMARY KEY,(lastname)
+	);
+SHOW TABLES;
+INSERT PersonnelList (lastname, firstname, jobtitle) 
+VALUES ('Jennings', 'Leslie', 'Sales Rep');
+SELECT * FROM PersonnelList;
+INSERT INTO PersonnelList (lastname, firstname)
+VALUES ('Thompson','Leslie'),
+('Firrelli', 'Julie'),
+('Patterson', 'Steve'),
+('Tseng','Foon Yue '),
+('Vanauf','George'),
+('Bondur','Loui'),
+('Hernandez','Gerard'),
+('Castillo','Pamela'),
+('Bott','Larry'),
+('jones','Barry'),
+('FIxter','Andy'),
+('Marsh','Peter'),
+('King','Tom'),
+('Nishi','Mami'),
+('Kato','Yoshimi'),
+('Gerard','Marin');
+
+SELECT * FROM  PersonnelList;
 
 ## ex_02
 
