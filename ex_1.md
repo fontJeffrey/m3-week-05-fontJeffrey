@@ -6,6 +6,7 @@
 寫出可以得到下方結果的 SQL 語句
 
 Answer
+CREATE DATABASE homework;
 USE homework;
 CREATE TABLE PersonnelList(
 	lastname CHAR(50) 
