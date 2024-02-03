@@ -6,7 +6,9 @@
 寫出可以得到下方結果的 SQL 語句
 
 Answer
-CREATE DATABASE homework;
+
+```sql
+/* CREATE DATABASE homework;
 USE homework;
 CREATE TABLE PersonnelList(
 	lastname CHAR(50) 
@@ -36,9 +38,7 @@ VALUES ('Thompson','Leslie'),
 ('Kato','Yoshimi'),
 ('Gerard','Marin');
 
-SELECT * FROM  PersonnelList;
-```sql
-/* SOME SQL STATEMENT  */
+SELECT * FROM  PersonnelList; */
 ```
 
 Output
